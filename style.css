@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+*{ background-color: rgb(180, 165, 165);
+}
+body {
+  font-family:Zapf Chancery, cursive;
+  background-color: #778286;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0, 0, 50px;
+  background: url("images/egypt2022.jpg") fixed repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+   }
+
+
+  h1, h2, h3 { font-family:font-family: 'Raleway', sans-serif;;
+  color: 00007E;
+  font-size:30px;
+   }
+
+  li {
+    display:inline;
+  }
+
+  ul{
+  padding:0
+  }
+
+  a{
+  text-decoration:none;
+  font-size:18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  }
+
+  a:hover {
+  color: white;
+  transition: 0.9s;
+
+  }
+
+ #profile-pic{
+  width:200px;
+  height:200px;
+  border-radius:70%;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.8);
+
+  }
+
+  .card { background-color:0691B0;
+  padding:100px;
+  width: 800px;
+  margin: 25px auto;
+  border-radius:10%;
+  border: 10px solid #EAEAEA;
+  box-shadow: 0 0 45px
+ }
+
+  #FBlogo {
+  width:80px;
+  height:80px;
+  margin: 50px auto;
+  border-radius: 70%;
+  }
+
+  #githublogo {
+    width:80px;
+  height:80px;
+  margin: 50px auto;
+  border-radius: 70%;
+  }
+
+  #IGlogo {width:80px;
+    height:80px;
+    margin: 50px auto;
+    border-radius: 70%;
+  }
+
+  .btn-blue {
+    background-color:lightblue;
+    border-radius:50%;
+  }
+
+
+  body:hover {
+    color: rgb(29, 25, 25);
+    transition: 0.9s;
+
+    }
